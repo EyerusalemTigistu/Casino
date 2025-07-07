@@ -1,6 +1,5 @@
-// Member 3 — Random Number Generator Setup
-#include <random>
+#include <cstdlib>  // for rand, srand
+#include <ctime>    // for time
 
-std::random_device rd;
-std::mt19937 gen(rd());
-std::uniform_int_distribution<int> dist(1, 50);
+srand(time(0)); // Initialize random seed
+int randomNumber = rand() % 50 + 1; // Generate number between 1 and 50
