@@ -1,6 +1,7 @@
 #include <iostream>
-#include <random>
-#include <limits>
+#include <cstdlib>   // rand, srand
+#include <ctime>     // time
+
 
 int main() {
     std::cout << "Welcome to the casino game!\n";
