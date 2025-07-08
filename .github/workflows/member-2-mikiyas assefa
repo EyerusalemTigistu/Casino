@@ -1,0 +1,8 @@
+//member 2-capital input
+// Seed the random generator once
+    srand(time(0));
+
+    // ----- starting money -----
+    int money;
+    cout << "Enter your capital: ";
+    cin >> capital ;                 // assume valid number
