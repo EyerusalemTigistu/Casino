@@ -35,8 +35,8 @@ You can keep playing until you run out of money or decide to stop.
 
 ## to Run the Code  and game
 
-g++ casino_guessing_game.cpp -o casino_guessing_game.exe
-
-./casino_guessing_game.exe
+Wright the folowing instruction in terminal:
+   1. g++ main.cpp -o main.exe
+   2. .\main.exe
 
 
