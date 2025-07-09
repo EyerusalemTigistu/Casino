@@ -1,14 +1,24 @@
 //  Member 7 — Generate Winner and Handle Result
+#include <iostream>
 
-int randomNumber = dist(gen);
-std::cout << "Winning number was: " << randomNumber << "\n";
+int main() {
+    int randomNumber = 25;  
+    int guess = 25;         
+    int capital = 100;      
+    int bet = 10;           
 
-capital -= bet; // Subtract bet first
+    std::cout << "Winning number was: " << randomNumber << "\n";
 
-if (guess == randomNumber) {
-    long long winnings = bet * 2;
-    capital += winnings;
-    std::cout << "You WIN! +" << winnings << "\n";
-} else {
-    std::cout << "You lose. -" << bet << "\n";
+    capital -= bet; 
+
+    if (guess == randomNumber) {
+        int winnings = bet * 2;
+        capital += winnings;
+        std::cout << "You WIN! +" << winnings << "\n";
+    } else {
+        std::cout << "You lose. -" << bet << "\n";
+    }
+
+    return 0;
 }
+
