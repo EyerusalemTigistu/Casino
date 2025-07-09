@@ -1,0 +1,7 @@
+//get bet amount
+int bet{};
+std::cout<<"enter betting money for this round:";
+while (!(std::cin>>bet) bet<=0 bet>capital){
+std::cout<<"invalid bet (1-"<<capital<<").Try again:";
+std::cin<<bet;
+}
